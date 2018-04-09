@@ -9,10 +9,9 @@ Gem::Specification.new do |s|
   s.version = "1.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Ernie Miller"]
+  s.authors = ["Kevin Townsend"]
   s.date = "2013-12-25"
   s.description = "\n      Allows simple search forms to be created against an AR3 model\n      and its associations, has useful view helpers for sort links\n      and multiparameter fields as well.\n    "
-  s.email = "ernie@metautonomo.us"
   s.extra_rdoc_files = [
     "LICENSE",
     "README.rdoc"
@@ -70,7 +69,7 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<activerecord>, [">= 4.0.1"])
       s.add_runtime_dependency(%q<activesupport>, [">= 4.0.1"])
-      s.add_runtime_dependency(%q<polyamorous>, ["~> 0.6.4"])
+      s.add_runtime_dependency(%q<polyamorous>, ["~> 1.3.3"])
       s.add_runtime_dependency(%q<actionpack>, [">= 4.0.1"])
       s.add_runtime_dependency(%q<rake>, [">= 0"])
       s.add_development_dependency(%q<sqlite3>, [">= 0"])
@@ -79,7 +78,7 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<activerecord>, [">= 4.0.1"])
       s.add_dependency(%q<activesupport>, [">= 4.0.1"])
-      s.add_dependency(%q<polyamorous>, ["~> 0.6.4"])
+      s.add_dependency(%q<polyamorous>, ["~> 1.3.3"])
       s.add_dependency(%q<actionpack>, [">= 4.0.1"])
       s.add_dependency(%q<rake>, [">= 0"])
       s.add_dependency(%q<sqlite3>, [">= 0"])
@@ -89,7 +88,7 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<activerecord>, [">= 4.0.1"])
     s.add_dependency(%q<activesupport>, [">= 4.0.1"])
-    s.add_dependency(%q<polyamorous>, ["~> 0.6.4"])
+    s.add_dependency(%q<polyamorous>, ["~> 1.3.3"])
     s.add_dependency(%q<actionpack>, [">= 4.0.1"])
     s.add_dependency(%q<rake>, [">= 0"])
     s.add_dependency(%q<sqlite3>, [">= 0"])
